@@ -1,0 +1,14 @@
+@mixin valoresFixos() {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%; 
+    background-position: center; 
+    position: relative;
+    margin-right: 0px;
+    margin: 4px 2px;
+}
