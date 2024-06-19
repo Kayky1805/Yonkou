@@ -18,11 +18,11 @@ function mudarInformacoes(botaoClicado){
     } else if (botaoClicado === 'Buggy') {
         texto = 'Buggy, o Palhaço Estrela é o capitão dos Piratas Buggy bem como o co-líder da Aliança Buggy e Alvida, e um ex-aprendiz dos Piratas do Roger ao lado de Shanks. Após a Batalha de Marineford, ele se tornou membro dos Shichibukai e líder da organização de despacho pirata "Buggy Delivery". Mais tarde, ele perdeu seu título de Shichibukai quando o sistema foi abolido mas foi então reconhecido como um dos Quatro Imperadores após as derrotas de Kaidou e Big Mom e a criação da Cross Guild, da qual ele é publicamente reconhecido como o líder';
         icone = "https://i.pinimg.com/originals/6e/fd/25/6efd25bd70e9002ecc7fa7f94bbda466.png";
-        imagem = "https://static.wikia.nocookie.net/onepiece/images/f/f7/Buggy_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20220909015332&path-prefix=pt";
+        imagem = "https://geekdama.com/wp-content/uploads/2022/06/one-piece-anime-buggy-postcover.jpg";
     } else if (botaoClicado === 'Barbanegra') {
         texto = 'Marshall D. Teach, mais comumente chamado por seu epíteto Barba Negra, é o capitão que virou almirante dos Piratas do Barba Negra, e um dos Quatro Imperadores.\n Ele também é a única pessoa conhecida na história a exercer os poderes de duas Akuma no Mi. Além disso, ele também faz parte de uma linhagem especial. Esse fato, no entanto, só é conhecido por um pequeno número de indivíduos, incluindo sua própria tripulação e os Cinco Anciões.';
         icone = "https://dendenmushibr.wordpress.com/wp-content/uploads/2017/10/1-jolly-roger.jpg";
-        imagem = "https://eoszsmvknnh.exactdn.com/wp-content/uploads/2024/02/One-Piece-Finalmente-mostra-porque-o-Barba-Negra-e-a.jpg?strip=all&lossy=1&ssl=1";
+        imagem = "https://ovicio.com.br/wp-content/uploads/2022/02/20220201-blackbeard-one-piece-1024x512.jpeg";
     } else if (botaoClicado === 'inicio' ) {
         texto = textoone;
         icone = iconone;
