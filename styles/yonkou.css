@@ -1,130 +1,97 @@
-@charset "UTF-8";
 body {
   background-color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  margin-left: 545px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 
 p#tone {
-  margin: auto;
+  max-width: 90%;
   text-align: center;
-  position: relative;
 }
 
 img#mone {
-  margin-top: -10px;
-  margin-left: 280px;
-  margin-right: auto;
-  display: block;
-  width: 750px;
-  height: 350px;
+  width: 90%;
+  max-width: 750px;
+  height: auto;
+  margin-top: 20px;
 }
 
-p {
-  color: antiquewhite;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+div {
+  text-align: center;
+  margin-top: 20px;
 }
 
-p#shanks {
-  color: blueviolet;
+button {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
 }
 
 button#luffy {
-  width: 70px;
-  height: 70px;
-  background-color: transparent;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 50%;
-  background-position: center;
-  position: relative;
-  margin-right: 0px;
-  margin: 4px 2px;
-  background-image: url("https://pm1.aminoapps.com/6618/8aeb0fc0f33c9faf2bb51b8d43dd2f52a6b6bb82_00.jpg"); /* Adiciona a imagem de fundo */
-  background-size: 2.2cm; /* Ajusta o tamanho da imagem para cobrir todo o botão */
-  margin-left: 500px;
+  background-image: url("/Img/imig-icone-luffy.jpg");
 }
 
 button#Shanks {
-  width: 70px;
-  height: 70px;
-  background-color: transparent;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 50%;
-  background-position: center;
-  position: relative;
-  margin-right: 0px;
-  margin: 4px 2px;
-  background-image: url("https://i.pinimg.com/originals/04/95/15/0495156dd28b70cde8928b18e6c4dbfe.png"); /* Adiciona a imagem de fundo */
-  background-size: 1.9cm; /* Ajusta o tamanho da imagem para cobrir todo o botão */
-  margin-left: auto;
+  background-image: url("/Img/img-icone-shanks.png");
 }
 
 button#Buggy {
-  width: 70px;
-  height: 70px;
-  background-color: transparent;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 50%;
-  background-position: center;
-  position: relative;
-  margin-right: 0px;
-  margin: 4px 2px;
-  background-image: url("https://i.pinimg.com/originals/6e/fd/25/6efd25bd70e9002ecc7fa7f94bbda466.png"); /* Adiciona a imagem de fundo */
-  background-size: 2.3cm; /* Ajusta o tamanho da imagem para cobrir todo o botão */
-  margin-left: auto;
+  background-image: url("/Img/img-icone-buggy.png");
 }
 
 button#Barbanegra {
-  width: 70px;
-  height: 70px;
-  background-color: transparent;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 50%;
-  background-position: center;
-  position: relative;
-  margin-right: 0px;
-  margin: 4px 2px;
-  background-image: url("https://dendenmushibr.wordpress.com/wp-content/uploads/2017/10/1-jolly-roger.jpg"); /* Adiciona a imagem de fundo */
-  background-size: 2.9cm; /* Ajusta o tamanho da imagem para cobrir todo o botão */
-  margin-left: auto;
+  background-image: url("/Img/img-icone-bb.jpg");
 }
 
 button#inicio {
-  width: 70px;
-  height: 70px;
-  background-color: transparent;
-  border: none;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 50%;
-  background-position: center;
-  position: relative;
-  margin-right: 0px;
-  margin: 4px 2px;
-  width: 50px; /* Define a largura do botão */
-  height: 50px; /* Define a altura do botão */
-  background-size: 2cm; /* Ajusta o tamanho da imagem para cobrir todo o botão */
-  background-color: rgb(0, 0, 0); /* Torna o fundo transparente para que a imagem seja visível */
+  width: auto;
+  height: auto;
+  padding: 10px 20px;
   color: azure;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-left: 622px;
+  background: none;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Media Query para telas muito pequenas */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=yonkou.css.map */

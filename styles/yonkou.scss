@@ -68,27 +68,35 @@ button#inicio {
     border: 1px solid white;
 }
 
-/* Media Queries para responsividade */
 @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
     h1 {
-        font-size: 1.5em;
-    }
-
-    p#tone {
-        font-size: 1em;
-    }
-
-    img#mone {
-        width: 100%;
+        font-size: 24px;
     }
 
     button {
-        width: 40px;
-        height: 40px;
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
     }
 
-    button#inicio {
-        font-size: 0.8em;
-        padding: 5px 10px;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Media Query para telas muito pequenas */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 16px;
     }
 }
