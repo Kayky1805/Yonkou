@@ -1,102 +1,120 @@
 body {
-    background-color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: antiquewhite;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 
 p#tone {
-    max-width: 90%;
-    text-align: center;
+  max-width: 90%;
+  margin-left: 45px;
 }
 
 img#mone {
-    width: 90%;
-    max-width: 750px;
-    height: auto;
-    margin-top: 20px;
+  width: 90%;
+  max-width: 750px;
+  height: auto;
+  margin-top: 20px;
 }
 
 div {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 button {
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 5px;
 }
 
+@import "./variaveis.scss";
+
 button#luffy {
-    background-image: url('/Img/imig-icone-luffy.jpg');
+  background-image: url("/Img/imig-icone-luffy.jpg");
+  @include valoresFixos();
 }
 
 button#Shanks {
-    background-image: url('/Img/img-icone-shanks.png');
+  background-image: url("/Img/img-icone-shanks.png");
+  @include valoresFixos();
 }
 
 button#Buggy {
-    background-image: url('/Img/img-icone-buggy.png');
+  background-image: url("/Img/img-icone-buggy.png");
+  @include valoresFixos();
 }
 
 button#Barbanegra {
-    background-image: url('/Img/img-icone-bb.jpg');
+  background-image: url("/Img/img-icone-bb.jpg");
+  @include valoresFixos();
 }
 
 button#inicio {
-    width: auto;
-    height: auto;
-    padding: 10px 20px;
-    color: azure;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: none;
-    border: 1px solid white;
+  width: 70px;
+  height: 70px;
+  padding: 10px 20px;
+  border-radius: 50%;
+  color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: none;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
+  .container {
+    padding: 10px;
+  }
 
-    h1 {
-        font-size: 24px;
-    }
+  h1 {
+    font-size: 24px;
+  }
 
-    button {
-        width: 100%;
-        padding: 15px;
-        font-size: 18px;
-    }
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+  }
 
-    img {
-        width: 100%;
-        height: auto;
-    }
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* Media Query para telas muito pequenas */
 @media (max-width: 480px) {
-    h1 {
-        font-size: 20px;
-    }
+  h1 {
+    font-size: 20px;
+  }
 
-    button {
-        padding: 10px;
-        font-size: 16px;
-    }
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  button#luffy,
+  button#Shanks,
+  button#Buggy,
+  button#Barbanegra {
+  @include valoresFixos();
+  }
+
 }

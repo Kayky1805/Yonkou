@@ -17,7 +17,7 @@ h1 {
 
 p#tone {
   max-width: 90%;
-  text-align: center;
+  margin-left: 45px;
 }
 
 img#mone {
@@ -44,28 +44,80 @@ button {
 
 button#luffy {
   background-image: url("/Img/imig-icone-luffy.jpg");
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  background-position: center;
+  position: relative;
+  margin-right: 0px;
+  margin: 4px 2px;
 }
 
 button#Shanks {
   background-image: url("/Img/img-icone-shanks.png");
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  background-position: center;
+  position: relative;
+  margin-right: 0px;
+  margin: 4px 2px;
 }
 
 button#Buggy {
   background-image: url("/Img/img-icone-buggy.png");
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  background-position: center;
+  position: relative;
+  margin-right: 0px;
+  margin: 4px 2px;
 }
 
 button#Barbanegra {
   background-image: url("/Img/img-icone-bb.jpg");
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  background-position: center;
+  position: relative;
+  margin-right: 0px;
+  margin: 4px 2px;
 }
 
 button#inicio {
-  width: auto;
-  height: auto;
+  width: 70px;
+  height: 70px;
   padding: 10px 20px;
+  border-radius: 50%;
   color: azure;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background: none;
-  border: 1px solid white;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
@@ -93,5 +145,22 @@ button#inicio {
   button {
     padding: 10px;
     font-size: 16px;
+  }
+  button#luffy,
+  button#Shanks,
+  button#Buggy,
+  button#Barbanegra {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    margin-right: 0px;
+    margin: 4px 2px;
   }
 }/*# sourceMappingURL=yonkou.css.map */
